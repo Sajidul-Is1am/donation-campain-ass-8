@@ -1,0 +1,125 @@
+[{
+        "picture": "https://example.com/education2.jpg",
+        "title": "Education Campaign 2",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Help us provide scholarships to aspiring students.",
+        "price": "$20.00"
+    },
+    {
+        "picture": "https://example.com/health1.jpg",
+        "title": "Health Fundraiser 1",
+        "category": "Health",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Support our mission to provide healthcare to underserved communities.",
+        "price": "$50.00"
+    },
+    {
+        "picture": "https://example.com/food2.jpg",
+        "title": "Food Assistance 2",
+        "category": "Food",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#f7dcbb",
+        "text_button_bg_color": "#d35400",
+        "description": "Join us in feeding hungry families in your community.",
+        "price": "$35.00"
+    },
+
+
+    {
+        "picture": "https://example.com/education3.jpg",
+        "title": "Education Campaign 3",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Support quality education for all.",
+        "price": "$25.00"
+    },
+    {
+        "picture": "https://example.com/clothing1.jpg",
+        "title": "Clothing Drive 1",
+        "category": "Clothing",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#e9e3f6",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Donate clothes to keep individuals warm during the winter season.",
+        "price": "$10.00"
+    },
+    {
+        "picture": "https://example.com/health3.jpg",
+        "title": "Health Fundraiser 3",
+        "category": "Health",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Join us in promoting a healthier community for all.",
+        "price": "$40.00"
+    },
+    {
+        "picture": "https://example.com/clothing2.jpg",
+        "title": "Clothing Drive 2",
+        "category": "Clothing",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#e9e3f6",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Help us provide clothing to homeless individuals in your community.",
+        "price": "$15.00"
+    },
+
+    {
+        "picture": "https://example.com/food1.jpg",
+        "title": "Food Assistance 1",
+        "category": "Food",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#f7dcbb",
+        "text_button_bg_color": "#d35400",
+        "description": "Contribute to our efforts in fighting hunger and providing meals to those in need.",
+        "price": "$40.00"
+    },
+
+    {
+        "picture": "https://example.com/health2.jpg",
+        "title": "Health Fundraiser 2",
+        "category": "Health",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Help us improve access to medical services for those in need.",
+        "price": "$25.00"
+    },
+    {
+        "picture": "https://example.com/food3.jpg",
+        "title": "Food Assistance 3",
+        "category": "Food",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#f7dcbb",
+        "text_button_bg_color": "#d35400",
+        "description": "Help us provide nutritious meals to those who need it most.",
+        "price": "$45.00"
+    },
+    {
+        "picture": "https://example.com/education1.jpg",
+        "title": "Education Campaign 1",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#d9534f",
+        "description": "Support educational initiatives for disadvantaged children.",
+        "price": "$30.00"
+    },
+    {
+        "picture": "https://example.com/clothing3.jpg",
+        "title": "Clothing Drive 3",
+        "category": "Clothing",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#e9e3f6",
+        "text_button_bg_color": "#8e44ad",
+        "description": "Support those in need with essential clothing items.",
+        "price": "$12.00"
+    }
+]
