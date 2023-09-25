@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'topBanner': "url('./src/assets/banner/headerBanner.jpg')",
-      }
     },
   },
   plugins: [require("daisyui")],

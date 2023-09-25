@@ -3,7 +3,7 @@ import Logo from "../../assets/Logo/logo.png"
 import './Navbar.css'
 
 const Navbar = () => {
-    const manuItem = <nav className="flex gap-12 text-lg font-bold">
+    const manuItem = <nav className="md:flex gap-12 text-lg font-bold ">
         <NavLink
             to={`/`}
             className={({ isActive, isPending }) =>
@@ -43,7 +43,7 @@ const Navbar = () => {
     </nav>
     return (
         <div>
-            <div className="navbar py-8">
+            <div className="navbar py-8 px-11 md:px-20 lg:px-32">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

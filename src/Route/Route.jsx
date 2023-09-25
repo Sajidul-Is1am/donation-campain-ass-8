@@ -7,10 +7,12 @@ import Home from "../Pages/Home/Home";
 import Statistic from "../Pages/Statistic/Statistic";
 import Donation from "../Pages/Donation/Donation";
 import DonationDetails from "../Pages/DonationDetails/DonationDetails";
+import ErrorMessage from "../Pages/ErrorMessage/ErrorMessage";
 const Route = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout></MainLayout>,
+        errorElement:<ErrorMessage></ErrorMessage>,
         children:[
             {
                 path:'/',
@@ -26,8 +28,8 @@ const Route = createBrowserRouter([
                 element:<Statistic></Statistic>
             },
             {
-                path:'/donationfeatured',
-                loader:() => fetch('donationCatagory.json'),
+                path:'/doncationfeatured/:donationId',
+                loader:() => fetch('/donationCatagory.json'),
                 element:<DonationDetails></DonationDetails>
             }
         ]
