@@ -1,9 +1,11 @@
-const Donation = () => {
-    return (
-        <div>
-            This is donation page
-        </div>
-    );
-};
+// const Donation = () => {
+//     const donetedItems = JSON.parse(localStorage.getItem('donateDetails'))
 
-export default Donation;
+//     return (
+//         <div>
+
+//         </div>
+//     );
+// };
+
+// export default Donation;
