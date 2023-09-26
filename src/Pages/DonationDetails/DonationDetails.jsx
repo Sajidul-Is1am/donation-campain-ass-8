@@ -74,7 +74,7 @@ const DonationDetails = () => {
                     </figure>
                     <div className="donationBtnOverlay py-2 md:py-8 pl-9 bottom-0 absolute rounded-b-3xl">
 
-                        <button onClick={handleDonate} className={`text-left p-4 text-xl font-semibold text-white rounded`} style={{ backgroundColor: `${text_button_bg_color}` }}>Donate{price}</button>
+                        <button onClick={handleDonate} className={`text-left p-2 md:p-4 text-lg md:text-xl font-semibold text-white rounded`} style={{ backgroundColor: `${text_button_bg_color}` }}>Donate{price}</button>
 
                     </div>
                 </div>
@@ -95,8 +95,8 @@ const DonationDetails = () => {
                 <ToastContainer />
 
                 <div className="pt-14">
-                    <h2 className='text-4xl font-bold'>{title}</h2>
-                    <p className="text-justify py-6 text-base font-normal">{description}</p>
+                    <h2 className='text-2xl md:text-4xl font-bold'>{title}</h2>
+                    <p className="text-justify py-6 text-sm md:text-base font-normal text-[#0B0B0BB3]">{description}</p>
                 </div>
             </div>
         </div>

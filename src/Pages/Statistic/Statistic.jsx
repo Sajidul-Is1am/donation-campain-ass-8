@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 const Statistic = () => {
     const donetedItem = JSON.parse(localStorage.getItem('donateDetails'));
     const donetedItemLength = donetedItem.length;
@@ -44,24 +44,27 @@ const Statistic = () => {
     };
 
     return (
-        <div className="md:flex justify-center my-20">
-            <PieChart PieChart width={500} height={500}>
-                <Pie
-                    data={data}
-                    cx={200}
-                    cy={200}
-                    labelLine={false}
-                    label={renderCustomizedLabel}
-                    outerRadius={80}
-                    fill="#8884d8"
-                    dataKey="value"
-                >
-                    {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
-                </Pie >
+        <div className="flex justify-center">
+            <ResponsiveContainer width="100%" height={500} >
+                <PieChart height={500}>
+                    <Pie
+                        data={data}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        label={renderCustomizedLabel}
+                        outerRadius={160}
+                        fill="#8884d8"
+                        dataKey="value"
+                    >
+                        {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                        ))}
+                    </Pie >
 
-            </PieChart>
+                </PieChart>
+            </ResponsiveContainer>
+
         </div>
     );
 

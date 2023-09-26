@@ -2,9 +2,9 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className="bg-topBanner grid justify-center items-center">
+        <div className="bg-topBanner grid  justify-center items-center">
             <div className='text-center'>
-                <h1 className="md:text-5xl font-bold">I Grow By Helping People In Need</h1>
+                <h1 className="md:text-5xl text-2xl font-bold">I Grow By Helping People In Need</h1>
                 <div className="join my-10">
                     <div>
                         <div>
