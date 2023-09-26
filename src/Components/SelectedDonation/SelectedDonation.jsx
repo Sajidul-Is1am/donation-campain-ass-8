@@ -3,7 +3,7 @@ const SelectedDonation = ({ selectedItem }) => {
     const { price, category, category_bg_color, title, picture, text_button_bg_color, card_bg_color } = selectedItem
     return (
         <div>
-            <div style={{ backgroundColor: `${card_bg_color}` }} className="card lg:card-side bg-base-100" >
+            <div style={{ backgroundColor: `${card_bg_color}` }} className="card lg:card-side bg-base-100 " >
                 <figure><img className="h-full" src={picture} alt="Album" /></figure>
                 <div className="card-body text-left">
                     <div>

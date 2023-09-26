@@ -4,10 +4,12 @@ import {
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
 
-import Statistic from "../Pages/Statistic/Statistic";
+
 import Donation from "../Pages/Donation/Donation";
 import DonationDetails from "../Pages/DonationDetails/DonationDetails";
 import ErrorMessage from "../Pages/ErrorMessage/ErrorMessage";
+import Statistic from "../Pages/Statistic/Statistic";
+
 const Route = createBrowserRouter([
     {
         path: "/",
@@ -25,6 +27,7 @@ const Route = createBrowserRouter([
             },
             {
                 path:'/statistic',
+                loader:() => fetch('/donationCatagory.json'),
                 element:<Statistic></Statistic>
             },
             {
