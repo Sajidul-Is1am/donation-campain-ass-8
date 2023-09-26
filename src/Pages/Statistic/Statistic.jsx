@@ -44,28 +44,40 @@ const Statistic = () => {
     };
 
     return (
-        <div className="flex justify-center">
-            <ResponsiveContainer width="100%" height={500} >
-                <PieChart height={500}>
-                    <Pie
-                        data={data}
-                        cx="50%"
-                        cy="50%"
-                        labelLine={false}
-                        label={renderCustomizedLabel}
-                        outerRadius={160}
-                        fill="#8884d8"
-                        dataKey="value"
-                    >
-                        {data.map((entry, index) => (
-                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                        ))}
-                    </Pie >
+        <div>
+            <div className="flex justify-center">
+                <ResponsiveContainer width="100%" height={500} >
+                    <PieChart height={500}>
+                        <Pie
+                            data={data}
+                            cx="50%"
+                            cy="50%"
+                            labelLine={false}
+                            label={renderCustomizedLabel}
+                            outerRadius={160}
+                            fill="#8884d8"
+                            dataKey="value"
+                        >
+                            {data.map((entry, index) => (
+                                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            ))}
+                        </Pie >
+                    </PieChart>
+                </ResponsiveContainer>
 
-                </PieChart>
-            </ResponsiveContainer>
-
+            </div>
+            <div className="flex justify-center gap-14 md:mb-20">
+                <span className="md:flex flex-row gap-4 items-center">
+                    <p className="py-3 md:py-0">Your Donation</p>
+                    <div className="w-24 h-3 bg-[#00C49F] rounded"></div>
+                </span>
+                <span className="md:flex flex-row gap-4 items-center">
+                    <p className="py-3 md:py-0"> Total Donation</p>
+                    <div className="w-24 h-3 bg-[#FF444A] rounded"></div>
+                </span>
+            </div>
         </div>
+
     );
 
 };
