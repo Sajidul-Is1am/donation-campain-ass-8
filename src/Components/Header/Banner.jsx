@@ -1,17 +1,11 @@
-import { useState } from 'react';
+import PropTypes from 'prop-types';
 import './Banner.css'
 
-const Banner = () => {
-    const [inputValue, setInputValue] = useState('')
+const Banner = ({hanldeSearch}) => {
+  
 
     
-    const hanldeSearch = e => {
-        e.preventDefault()
-        const searchValue = e.target.inputValue.value;
-        setInputValue(searchValue)
-        
-    }
-    console.log(inputValue);
+    
     return (
         <div className="bg-topBanner grid  justify-center items-center">
             <div className='text-center'>
@@ -33,4 +27,7 @@ const Banner = () => {
     );
 };
 
+Banner.propTypes={
+    hanldeSearch:PropTypes.func
+}
 export default Banner;
